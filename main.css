@@ -1,0 +1,61 @@
+html, body, h1, h2, p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+    height: 100vh;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    height: 91%;
+}
+
+.content {
+    width: 405px;
+    padding: 20px;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.content::first-letter {
+    color: #fd0001;
+    font-size: 22px;
+}
+
+header {
+    padding: 10px 0;
+    background-color: #008002;
+    text-align: center;
+    color: white;
+}
+
+footer {
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.left-bar {
+	font-size: 12px;
+    width: 120px;
+    background: red;
+    padding: 15px 15px 15px 30px;
+}
+
+.left-bar > div {
+    margin: 10px;
+}
+
+.left-bar > div > a {
+    color: white;
+    margin-bottom: 10px;
+}
