@@ -14,6 +14,7 @@ body {
     height: 91%;
 }
 
+
 .content {
     width: 405px;
     padding: 20px;
@@ -35,7 +36,7 @@ header {
 
 footer {
     padding: 5px;
-    background-color: red;
+    background-color:  black;
     text-align: center;
     color: white;
     font-size: 12px;
@@ -59,3 +60,88 @@ footer {
     color: white;
     margin-bottom: 10px;
 }
+
+.some-other {
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.some-other:hover {
+    background: #008002;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main {
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.main:hover {
+    background: #008002;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.secondary {
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.secondary:hover {
+    background: #008002;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.more-pages {
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.more-pages:hover {
+    background: #008002;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.last-page {
+    color: white;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.last-page:hover {
+    background: #008002;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.content::selection {
+    color: white;
+    background: green;
+}
+
+.some::selection {
+    color: white;
+    background: green;
+}
+
+.laborum::selection {
+    color: white;
+    background: green;
+}
+
+
+
+
+
